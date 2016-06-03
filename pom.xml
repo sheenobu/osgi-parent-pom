@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.sheenobu</groupId>
   <artifactId>osgi-parent</artifactId>
-  <version>2013-12-14</version>
+  <version>2016-06-03</version>
   <packaging>pom</packaging>
   <name>osgi-parent</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <scala.version>2.10.0</scala.version>
-    <osgi.version>4.3.1</osgi.version>
-    <jvm.target>1.7</jvm.target>
+    <scala.version>2.11.7</scala.version>
+    <osgi.version>6.0.0</osgi.version>
+    <jvm.target>1.8</jvm.target>
   </properties>
   <licenses>
     <license>
@@ -68,11 +68,11 @@
       <name>Scala-Tools Maven2 Repository</name>
       <url>http://scala-tools.org/repo-releases</url>
     </repository>
-    <repository>  
-      <id>maven-restlet</id>  
-      <name>Public online Restlet repository</name>  
-      <url>http://maven.restlet.org</url>  
-    </repository>  
+    <repository>
+      <id>maven-restlet</id>
+      <name>Public online Restlet repository</name>
+      <url>http://maven.restlet.org</url>
+    </repository>
   </repositories>
 
   <pluginRepositories>
@@ -132,5 +132,4 @@
       </plugins>
     </pluginManagement>
   </build>
-
 </project>
